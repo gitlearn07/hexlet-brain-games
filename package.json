@@ -9,7 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@hexlet/code": "file:"
+    "@hexlet/code": "file:",
+    "readline-sync": "^1.4.10"
   },
   "type": "module",
   "bin": {
