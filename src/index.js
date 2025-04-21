@@ -19,7 +19,7 @@ export default (gameIntroMessage, getQuestionAndAnswer) => {
       console.log('Correct!');
       correctAnswers += 1;
     } else {
-      console.log(`${userAnswer} is wrong answer ;(. Correct answer was ${correctAnswer}.`);
+      console.log(`'${userAnswer}' is wrong answer ;(. Correct answer was '${correctAnswer}'.`);
       console.log(`Let's try again, ${userName}!`);
       return;
     }
