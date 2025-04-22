@@ -24,7 +24,7 @@ const getQuestionAndAnswer = () => {
 
   const question = `Question: ${randomNumber}`;
 
-  return [question, correctAnswer];
+  return [question, correctAnswer.toString()];
 };
 
 export default () => runGame(gameIntroMessage, getQuestionAndAnswer);
